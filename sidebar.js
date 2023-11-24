@@ -1,5 +1,5 @@
 $(function () {
   // Load navbar.html on page load
-  $("#sidebar-container").load("https://raw.githubusercontent.com/PMBULBI/pmb-mhs/main/static/sidebar.html");
+  $("#sidebar-container").load("https://cdn.jsdelivr.net/gh/PMBULBI/pmb-mhs@0.0.1/static/sidebar.html");
 
 });
