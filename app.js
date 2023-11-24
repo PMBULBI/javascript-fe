@@ -49,17 +49,17 @@
     $("#menuCollapse input[type=checkbox]").prop("checked", true);
   }
   // Header Area Toggle switch
-  $("#sidebar_type").on("click", function () {
-    if ($(".app-wrapper").hasClass("collapsed")) {
-      $(".app-wrapper").removeClass("collapsed").addClass("extend");
-      $("#menuCollapse input[type=checkbox]").prop("checked", false);
-      localStorage.sideBarType = "extend";
-    } else {
-      $(".app-wrapper").removeClass("extend").addClass("collapsed");
-      $("#menuCollapse input[type=checkbox]").prop("checked", true);
-      localStorage.sideBarType = "collapsed";
-    }
-  });
+  // $("#sidebar_type").on("click", function () {
+  //   if ($(".app-wrapper").hasClass("collapsed")) {
+  //     $(".app-wrapper").removeClass("collapsed").addClass("extend");
+  //     $("#menuCollapse input[type=checkbox]").prop("checked", false);
+  //     localStorage.sideBarType = "extend";
+  //   } else {
+  //     $(".app-wrapper").removeClass("extend").addClass("collapsed");
+  //     $("#menuCollapse input[type=checkbox]").prop("checked", true);
+  //     localStorage.sideBarType = "collapsed";
+  //   }
+  // });
 
   // Settings Area Toggle Switch
   $("#menuCollapse input[type=checkbox]").on("click", function () {
