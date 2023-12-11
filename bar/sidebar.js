@@ -1,4 +1,4 @@
 $(function () {
   // Load navbar.html on page load
-  $("#sidebar-container").load("https://cdn.jsdelivr.net/gh/PMBULBI/javascript-fe@0.2.9/static/sidebar.html");
+  $("#sidebar-container").load("https://cdn.jsdelivr.net/gh/PMBULBI/javascript-fe@0.3.1/static/sidebar.html");
 });
